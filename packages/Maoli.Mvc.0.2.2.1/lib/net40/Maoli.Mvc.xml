@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Maoli.Mvc</name>
+    </assembly>
+    <members>
+        <member name="T:Maoli.Mvc.CepAttribute">
+            <summary>
+            Validates a CEP code.
+            </summary>
+        </member>
+        <member name="M:Maoli.Mvc.CepAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the CepAttribute class.
+            </summary>
+        </member>
+        <member name="M:Maoli.Mvc.CepAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the CepAttribute class.
+            </summary>
+            <param name="errorMessage">The error message to associate with a validation control if validation fails.</param>
+        </member>
+        <member name="M:Maoli.Mvc.CepAttribute.#ctor(System.String,Maoli.CepPunctuation)">
+            <summary>
+            Initializes a new instance of the CepAttribute class.
+            </summary>
+            <param name="errorMessage">The error message to associate with a validation control if validation fails.</param>
+            <param name="punctuation">Indicates how punctuation will be handled.</param>
+        </member>
+        <member name="M:Maoli.Mvc.CepAttribute.IsValid(System.Object)">
+            <summary>
+            Determines whether the specified value matches the pattern of a valid CEP. 
+            </summary>
+            <param name="value">The value to validate.</param>
+            <returns>true if the specified value is valid or null; otherwise, false.</returns>
+        </member>
+        <member name="M:Maoli.Mvc.CepAttribute.GetClientValidationRules(System.Web.Mvc.ModelMetadata,System.Web.Mvc.ControllerContext)">
+            <summary>
+            Gets a list of client validation rules for the property.
+            </summary>
+            <param name="metadata">The model metadata.</param>
+            <param name="context">The controller context.</param>
+            <returns>A list of remote client validation rules for the property.</returns>
+        </member>
+        <member name="T:Maoli.Mvc.PunctuatedCpfAttribute">
+            <summary>
+            Validates a punctuated CPF.
+            </summary>
+        </member>
+        <member name="M:Maoli.Mvc.PunctuatedCpfAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the PunctuatedCpfAttribute class.
+            </summary>
+        </member>
+        <member name="M:Maoli.Mvc.PunctuatedCpfAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the PunctuatedCpfAttribute class.
+            </summary>
+            <param name="errorMessage">The error message to associate with a validation control if validation fails.</param>
+        </member>
+        <member name="M:Maoli.Mvc.PunctuatedCpfAttribute.IsValid(System.Object)">
+            <summary>
+            Determines whether the specified value matches the pattern of a valid punctuated CPF. 
+            </summary>
+            <param name="value">The value to validate.</param>
+            <returns>true if the specified value is valid or null; otherwise, false.</returns>
+        </member>
+        <member name="M:Maoli.Mvc.PunctuatedCpfAttribute.GetClientValidationRules(System.Web.Mvc.ModelMetadata,System.Web.Mvc.ControllerContext)">
+            <summary>
+            Gets a list of client validation rules for the property.
+            </summary>
+            <param name="metadata">The model metadata.</param>
+            <param name="context">The controller context.</param>
+            <returns>A list of remote client validation rules for the property.</returns>
+        </member>
+        <member name="T:Maoli.Mvc.CnpjAttribute">
+            <summary>
+            Validates a CNPJ.
+            </summary>
+        </member>
+        <member name="M:Maoli.Mvc.CnpjAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the CnpjAttribute class.
+            </summary>
+        </member>
+        <member name="M:Maoli.Mvc.CnpjAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the CnpjAttribute class.
+            </summary>
+            <param name="errorMessage">The error message to associate with a validation control if validation fails.</param>
+        </member>
+        <member name="M:Maoli.Mvc.CnpjAttribute.IsValid(System.Object)">
+            <summary>
+            Determines whether the specified value matches the pattern of a valid CNPJ. 
+            </summary>
+            <param name="value">The value to validate.</param>
+            <returns>true if the specified value is valid or null; otherwise, false.</returns>
+        </member>
+        <member name="M:Maoli.Mvc.CnpjAttribute.GetClientValidationRules(System.Web.Mvc.ModelMetadata,System.Web.Mvc.ControllerContext)">
+            <summary>
+            Gets a list of client validation rules for the property.
+            </summary>
+            <param name="metadata">The model metadata.</param>
+            <param name="context">The controller context.</param>
+            <returns>A list of remote client validation rules for the property.</returns>
+        </member>
+        <member name="T:Maoli.Mvc.CpfAttribute">
+            <summary>
+            Validates a CPF.
+            </summary>
+        </member>
+        <member name="M:Maoli.Mvc.CpfAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the CpfAttribute class.
+            </summary>
+        </member>
+        <member name="M:Maoli.Mvc.CpfAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the CpfAttribute class.
+            </summary>
+            <param name="errorMessage">The error message to associate with a validation control if validation fails.</param>
+        </member>
+        <member name="M:Maoli.Mvc.CpfAttribute.#ctor(System.String,Maoli.CpfPunctuation)">
+            <summary>
+            Initializes a new instance of the CpfAttribute class.
+            </summary>
+            <param name="errorMessage">The error message to associate with a validation control if validation fails.</param>
+            <param name="punctuation">Indicates how punctuation will be handled.</param>
+        </member>
+        <member name="M:Maoli.Mvc.CpfAttribute.IsValid(System.Object)">
+            <summary>
+            Determines whether the specified value matches the pattern of a valid CPF. 
+            </summary>
+            <param name="value">The value to validate.</param>
+            <returns>true if the specified value is valid or null; otherwise, false.</returns>
+        </member>
+        <member name="M:Maoli.Mvc.CpfAttribute.GetClientValidationRules(System.Web.Mvc.ModelMetadata,System.Web.Mvc.ControllerContext)">
+            <summary>
+            Gets a list of client validation rules for the property.
+            </summary>
+            <param name="metadata">The model metadata.</param>
+            <param name="context">The controller context.</param>
+            <returns>A list of remote client validation rules for the property.</returns>
+        </member>
+        <member name="T:Maoli.Mvc.PunctuatedCnpjAttribute">
+            <summary>
+            Validates a punctuated CNPJ.
+            </summary>
+        </member>
+        <member name="M:Maoli.Mvc.PunctuatedCnpjAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the PunctuatedCnpjAttribute class.
+            </summary>
+        </member>
+        <member name="M:Maoli.Mvc.PunctuatedCnpjAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the PunctuatedCnpjAttribute class.
+            </summary>
+            <param name="errorMessage">The error message to associate with a validation control if validation fails.</param>
+        </member>
+        <member name="M:Maoli.Mvc.PunctuatedCnpjAttribute.IsValid(System.Object)">
+            <summary>
+            Determines whether the specified value matches the pattern of a valid punctuated CNPJ. 
+            </summary>
+            <param name="value">The value to validate.</param>
+            <returns>true if the specified value is valid or null; otherwise, false.</returns>
+        </member>
+        <member name="M:Maoli.Mvc.PunctuatedCnpjAttribute.GetClientValidationRules(System.Web.Mvc.ModelMetadata,System.Web.Mvc.ControllerContext)">
+            <summary>
+            Gets a list of client validation rules for the property.
+            </summary>
+            <param name="metadata">The model metadata.</param>
+            <param name="context">The controller context.</param>
+            <returns>A list of remote client validation rules for the property.</returns>
+        </member>
+    </members>
+</doc>

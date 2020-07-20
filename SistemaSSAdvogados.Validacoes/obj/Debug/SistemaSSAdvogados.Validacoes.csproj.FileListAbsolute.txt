@@ -1,0 +1,12 @@
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\bin\Debug\SistemaSSAdvogados.Validacoes.dll
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\bin\Debug\SistemaSSAdvogados.Validacoes.pdb
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\obj\Debug\SistemaSSAdvogados.Validacoes.csprojAssemblyReference.cache
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\obj\Debug\SistemaSSAdvogados.Validacoes.csproj.CoreCompileInputs.cache
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\obj\Debug\SistemaSSAdvogados.Validacoes.dll
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\obj\Debug\SistemaSSAdvogados.Validacoes.pdb
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\bin\Debug\SistemaSSAdvogados.Validacoes.dll.config
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\bin\Debug\EntityFramework.dll
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\bin\Debug\EntityFramework.xml
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Esequias\Documents\GitHub\S-SAdvogados\SistemaSSAdvogados.Validacoes\obj\Debug\SistemaSSAdvogados.Validacoes.csproj.CopyComplete
